@@ -1,0 +1,14 @@
+<!-- agent/schemas/scenario.xsd -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+    <xsd:element name="ScenarioOutput">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="ScenarioContext" type="xsd:string"/>
+                <xsd:element name="UserRequirements" type="xsd:string"/>
+                <xsd:element name="AdditionalMetadata" type="xsd:string" minOccurs="0"/>
+            </xsd:sequence>
+            <xsd:attribute name="version" type="xsd:string" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

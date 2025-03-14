@@ -1,0 +1,9 @@
+pip install \
+  langchain \
+  chromadb \
+  openai \
+  psycopg2-binary \
+  pydantic \
+  fastapi \
+  uvicorn \
+  lxml  # for XSD validation
